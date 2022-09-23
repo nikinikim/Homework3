@@ -54,9 +54,40 @@ public class Main {
         System.out.println("краски " + brownOnClass * classes + " банок коричневой краски");
 
         // Задание 6
+        double bananas = 400;
+        double milk = 210;
+        double iceCream = 200;
+        double eggs = 280;
+        double breakfastWeight = (bananas + milk + eggs + iceCream) / 1000;
+        System.out.println("Вес завтрака = " + breakfastWeight + " кг");
 
+        // Задание 7
+        double needToLose = 7;
+        double firstPlan = 0.25;
+        double secondPlan = 0.5;
+        double firstPlanDays = needToLose / firstPlan;
+        double secondPlanDays = needToLose / secondPlan;
+        double averagePlanDays = (firstPlanDays + secondPlanDays) / 2;
+        System.out.println(firstPlanDays + " уйдет на похудение, если спортсмен будет терять по 250 грамм");
+        System.out.println(secondPlanDays + " уйдет на похудение, если спортсмен будет терять по 500 грамм");
+        System.out.println(averagePlanDays + " дней потребуется в среднем, чтобы добиться результата похудения");
 
-
+        // Задание 8
+        int incomeMasha = 67760;
+        int incomeDenis = 83690;
+        int incomeCristina = 76230;
+        double newIncomeMasha = (incomeMasha + (incomeMasha * 0.1));
+        double newIncomeDenis = (incomeDenis + (incomeDenis * 0.1));
+        double newIncomeCristina = (incomeCristina + (incomeCristina * 0.1));
+        double newDifIncomeMasha = ((newIncomeMasha - incomeMasha) * 12);
+        double newDifIncomeDenis = ((newIncomeDenis - incomeDenis) * 12);
+        double newDifIncomeCristina = ((newIncomeCristina - incomeCristina) * 12);
+        System.out.print("Маша теперь получает " + newIncomeMasha + " рублей. Годовой доход вырос на ");
+        System.out.println(newDifIncomeMasha + " рублей");
+        System.out.print("Денис теперь получает " + newIncomeDenis + " рублей. Годовой доход вырос на ");
+        System.out.println(newDifIncomeDenis + " рублей");
+        System.out.print("Кристина теперь получает " + newIncomeCristina + " рублей. Годовой доход вырос на ");
+        System.out.println(newDifIncomeCristina + " рублей");
 
 
 
